@@ -1,0 +1,53 @@
+.sidebar_menu{
+  width: 300px;
+  min-height: 100vh;
+  background-color: cornflowerblue;
+  padding: 20px;
+
+  
+}
+.user_info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+.user_info .info_img{
+  border: 5px solid #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  object-fit: contain;
+  text-align: center;
+}
+.user_info .info_img i{
+  font-size: 22px;
+}
+.user_info .info_name{
+  color: #fff;
+  line-height: 10px;
+}
+
+ /* navigation */
+
+.nav_list{
+  margin-top: 30px;
+}
+.nav_items{
+  margin-left: 0px;
+  list-style: none;
+}
+.nav_link{
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+  text-decoration: none;
+  padding: 7px 0;
+}
+.nav-link-icons{
+  color: rgb(109, 255, 80);
+}
+.nav_link_text{
+  color: #fff;
+}
