@@ -51,3 +51,18 @@
 .nav_link_text{
   color: #fff;
 }
+
+@media screen and (max-width:1200px){
+  .sidebar_menu{
+    width: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sidebar_menu .nav_link_text{
+    display: none;
+
+  }
+  .nav_list{
+  }
+
+}
